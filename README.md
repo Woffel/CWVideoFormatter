@@ -23,16 +23,16 @@ Run the script with one of the following commands:
 Replace `script_name.py` with the name of this script and `directory_path` with the path of the directory from which you want to collect `.webm` files.
 
 ## Example Directory Structure
-Main Dir \n
-    └ GUID \n
-        └ GUID \n
-           └ output.webm \n
-    └ GUID \n
-        └ GUID \n
-           └ output.webm \n
-    └ GUID \n
-        └ GUID \n
-           └ output.webm \n
+Main Dir <br />
+    └ GUID <br />
+        └ GUID <br />
+           └ output.webm <br />
+    └ GUID <br />
+        └ GUID <br />
+           └ output.webm <br />
+    └ GUID <br />
+        └ GUID <br />
+           └ output.webm <br />
 
 
 In the above directory structure, each `GUID` directory contains one or more subdirectories, also named `GUID`, each of which contains an `output.webm` file. The script will collect and combine these `.webm` files in the order of their creation times.
