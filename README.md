@@ -23,3 +23,20 @@ Run the script with one of the following commands:
 Replace `script_name.py` with the name of this script and `directory_path` with the path of the directory from which you want to collect `.webm` files.
 
 ## Example Directory Structure
+Main Dir
+    └ GUID
+        └ GUID
+           └ output.webm
+    └ GUID
+        └ GUID
+           └ output.webm
+    └ GUID
+        └ GUID
+           └ output.webm
+
+
+In the above directory structure, each `GUID` directory contains one or more subdirectories, also named `GUID`, each of which contains an `output.webm` file. The script will collect and combine these `.webm` files in the order of their creation times.
+
+## Note
+
+The script uses `ffmpeg-python` to combine the `.webm` files. Make sure you have it installed in your environment. You can install it using pip:
