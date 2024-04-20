@@ -25,14 +25,20 @@ Replace `script_name.py` with the name of this script and `directory_path` with 
 ## Example Directory Structure
 <pre>
 Main Dir
-    └ GUID
-        └ GUID
+    ├ GUID
+        ├ GUID
            └ output.webm
-    └ GUID
-        └ GUID
+        ├ GUID
            └ output.webm
-    └ GUID
-        └ GUID
+    ├ GUID
+        ├ GUID
+           └ output.webm
+        ├ GUID
+           └ output.webm
+    ├ GUID
+        ├ GUID
+           └ output.webm
+        ├ GUID
            └ output.webm
 </pre>
 
